@@ -18,7 +18,7 @@ while True:
         break
     if removing_choice.isdigit():
         removing_choice = int(removing_choice)
-        if removing_choice > size_of_queue:
+        if removing_choice > size_of_queue-1:
             print("Enter a smaller number. ")
             continue
         # Removes Items from the Queue
